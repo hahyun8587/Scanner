@@ -1,0 +1,26 @@
+program ExtensionTest
+	program_begin
+        integer integerVar1 = 0, integerVar2 = 0;
+        float floatVar1 = 0.1209, floatVar2 = 124.520;
+        
+        integerVar1++;
+        integerVar2--;
+
+        if (intgerVar1 != integerVar2) 
+            begin   
+                display("integerVar1 is not equal to integerVar2.\n");
+            end
+        elseif (integerVar1 == intergerVar2)
+            begin 
+                display("integerVar1 is equal to integerVar2.\n");
+            end
+
+        if (floatVar1 >= floatVar2) 
+            begin
+                display("floatVar1 is bigger than or equal to floatVar2.\n");
+            end
+        elseif (floatVar1 <= floatVar2)
+            begin 
+                display("floatVar1 is smaller than or eqaul to floatVar2.\n");
+            end
+program_end
